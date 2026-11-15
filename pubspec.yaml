@@ -1,0 +1,17 @@
+name: thinking_orbs_dart
+description: Port Dart/Flutter das orbes de pontos "thinking-orbs" (Jakub Antalik), verificado contra os vetores de referência da biblioteca original.
+version: 0.1.0
+repository: https://github.com/SafeMantella/thinking_orbs_dart
+publish_to: none
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
