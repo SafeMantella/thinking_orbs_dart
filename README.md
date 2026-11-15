@@ -5,6 +5,12 @@ Port Dart/Flutter das orbes de pontos animadas **[thinking-orbs](https://github.
 - 9 estados × 2 tamanhos (64 px e 20 px): `working`, `searching`, `solving`, `listening`, `connecting`, `weaving`, `composing`, `breathing`, `shaping`.
 - **Verificado contra o original:** os 72 casos de `spec/orbs-golden.json` (9 estados × 2 tamanhos × 4 instantes) batem ponto a ponto, tolerância 1e-4. Os testes estão em `test/thinking_orb_test.dart`, com o arquivo em `test/fixtures/orbs-golden.json`.
 
+## Demo
+
+![Demo rodando em Flutter web: 9 estados em 64 px e 20 px](doc/demo.png)
+
+App de exemplo em `example/`: `cd example && flutter run -d chrome`.
+
 ## Arquivos
 
 | Arquivo | O que é |

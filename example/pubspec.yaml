@@ -1,0 +1,12 @@
+name: thinking_orbs_example
+description: Demo do thinking_orbs_dart.
+publish_to: none
+environment:
+  sdk: ^3.10.0
+dependencies:
+  flutter:
+    sdk: flutter
+  thinking_orbs_dart:
+    path: ../
+flutter:
+  uses-material-design: true
